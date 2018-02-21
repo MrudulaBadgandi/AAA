@@ -28,13 +28,8 @@ public class AAA {
         driver.findElement(By.name("termLength")).sendKeys("10 Years");
 	    driver.findElement(By.cssSelector("input[type='email']")).sendKeys("mrudula.badgandi@gmail.com");
 	    //driver.close();
-	}
-	
-	void DisablePop()
-	{
-		
-	}
-	
+	}	
+
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
